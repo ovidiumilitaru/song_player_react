@@ -1,6 +1,6 @@
 export const songsList = [
   {
-    authod: 'Metallica',
+    author: 'Metallica',
     title: 'Whiskey in the Jar',
     id: 'Metallica01SONGWhiskeyintheJar'
   }, 

@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { songsList } from './constants';
+import { SongsList } from './components/SongsLlist/SongsList.component';
 
 function App() {
-  console.log('songsList = ', songsList)
   return (
     <div className="App">
       <header className="App-header">
+      <SongsList />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
